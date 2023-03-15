@@ -19,7 +19,7 @@ const Leftbar = () => {
             USER_NAME
           </div>
           <Link to="/" style={{ textDecoration: 'none' }}>
-            <div className={(pathname === '/') ? 'active' : 'item'}>
+            <div className={(pathname === '/' || pathname.includes('fooddetails')) ? 'active' : 'item'}>
               <span>HOME</span>
             </div>
           </Link>
